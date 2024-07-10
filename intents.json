@@ -1,0 +1,43 @@
+{
+    "intents": [
+        {
+            "tag": "Bonjour",
+            "patterns": [
+                "bonjour",
+                "bonjour"
+            ],
+            "responses": [
+                "Bonjour,J'espère que vous allez bien.\nComment puis-je vous aider ?"
+            ]
+        },
+        {
+            "tag": "Bonsoir",
+            "patterns": [
+                "bonsoir"
+            ],
+            "responses": [
+                "Bonsoir,J'espère que vous allez bien.\nComment puis-je vous aider ?"
+            ]
+        },
+        {
+            "tag": "Salut",
+            "patterns": [
+                "salut"
+            ],
+            "responses": [
+                "Salut,J'espère que vous allez bien.\nComment puis-je vous aider ?"
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "bye",
+                "aurevoir",
+                "a plus"
+            ],
+            "responses": [
+                "Aurevoir,Si vous avez d'autres questions n'hésitez pas"
+            ]
+        }
+    ]
+}
