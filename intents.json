@@ -45,14 +45,10 @@
                 "Qui couvrons-nous ?",
                 "Les personnes que nous couvrons",
                 "Quelles sont les personnes couvertent par votre assurance ?",
-                "Quelles sont les personnes protégées par votre assurance ?",
+                "Quelles sont les personnes protégées par votre assurance ?"
             ],
             "responses": [
-                "Les personnes protégées :
-                 • Vous et vos passagers,
-                 • le Conducteur secondaire et ses passagers,
-                 • toute autre personne à qui vous prêtez
-occasionnellement votre véhicule"
+                "Les personnes protégées :\n• Vous et vos passagers,\n• le Conducteur secondaire et ses passagers,\n• toute autre personne à qui vous prêtez occasionnellement votre véhicule"
             ]
         }
     ]
