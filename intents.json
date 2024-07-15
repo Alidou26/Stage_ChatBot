@@ -135,7 +135,61 @@
     "responses": [
         "Une fois que l'assuré a accepté l'offre de l'assureur, le véhicule devient définitivement la propriété de l'assureur. Avant cette acceptation, l'assuré est tenu de reprendre le véhicule s'il est retrouvé."
     ]
+},
+{
+    "tag": "Subrogation",
+    "patterns": [
+        "Qu'est-ce que la subrogation en assurance ?",
+        "Que signifie la subrogation en assurance ?",
+        "Comment fonctionne la subrogation en assurance ?",
+        "Quelles sont les implications de la subrogation pour l'assuré ?"
+    ],
+    "responses": [
+        "La subrogation nous permet d’agir à la place des personnes indemnisées dans leurs droits et actions contre les tiers responsables du sinistre, dans la limite de l’indemnité qui leur a été réglée. Si, du fait des personnes indemnisées, la subrogation ne peut plus s’opérer en notre faveur, notre garantie cesse d’être engagée dans la mesure où elle aurait pu s’exercer."
+    ]
+},
+{
+    "tag": "Declaration_du_risque",
+    "patterns": [
+        "Qu'est-ce que la déclaration du risque à la souscription en assurance ?",
+        "Que signifie la déclaration du risque lors de la souscription en assurance ?",
+        "Comment fonctionne la déclaration du risque à la souscription ?",
+        "Quelles sont les obligations de l'assuré concernant la déclaration du risque à la souscription ?"
+    ],
+    "responses": [
+        "Le Souscripteur doit, lors de la souscription du contrat, répondre exactement aux questions que nous lui posons au sein du questionnaire de souscription. Ces réponses sont reprises sur les Conditions Personnelles et constituent la base de notre acceptation du risque et de notre tarification."
+    ]
+},
+{
+    "tag": "Declaration_en_cours_de_contrat",
+    "patterns": [
+        "Qu'est-ce que la déclaration en cours de contrat en assurance ?",
+        "Que signifie la déclaration en cours de contrat en assurance ?",
+        "Comment fonctionne la déclaration en cours de contrat ?",
+        "Quelles sont les obligations de l'assuré concernant la déclaration en cours de contrat ?"
+    ],
+    "responses": [
+            "En cours de contrat, le Souscripteur doit nous déclarer par téléphone ou par lettre recommandée toute modification apportée à l'un des éléments figurant sur les Conditions Personnelles ainsi que le retrait de la carte grise par mesure conservatoire justifiée par l'état du véhicule. Cette déclaration doit nous être faite dans un délai maximum de 15 jours à partir du moment où il en a eu connaissance.\n\nLorsque cette modification constitue une aggravation telle que, si le nouvel état de choses avait existé lors de la souscription du contrat, nous n'aurions pas contracté ou ne l'aurions fait que moyennant une cotisation plus élevée, nous pouvons soit résilier le contrat moyennant un préavis de dix jours, soit proposer un nouveau taux de cotisation. Si le Souscripteur n'accepte pas ce nouveau taux, nous pouvons résilier le contrat moyennant un préavis de 30 jours.\n\nLorsque cette modification constitue une diminution telle que, si le nouvel état de choses avait existé lors de la souscription du contrat, nous aurions contracté moyennant une cotisation moins élevée, nous devons constater par avenant cette déclaration. L'avenant prend effet à partir du moment où nous avons été informé de cette modification et est établi avec une cotisation correspondant au risque ainsi diminué. Le Souscripteur peut résilier le contrat si nous n'acceptons pas la diminution de cotisation correspondante. Dans ce cas, la résiliation prend effet 30 jours à compter de la date d'envoi de la notification." 
+    ]
+
+},
+    {
+    "tag": "Assurances_cumulatives",
+    "patterns": [
+        "Qu'est-ce que les assurances cumulatives en assurance ?",
+        "Que signifie les assurances cumulatives en assurance ?",
+        "Comment fonctionnent les assurances cumulatives ?",
+        "Quelles sont les obligations de l'assuré concernant les assurances cumulatives ?"
+    ],
+    "responses": [
+        "Si, à la souscription, comme en cours de contrat, les risques garantis par le présent contrat sont assurés auprès de plusieurs Assureurs, le Souscripteur doit donner immédiatement à chaque Assureur connaissance des autres Assureurs en indiquant leurs noms et les conditions d'assurance. En cas de Sinistre, le bénéficiaire du contrat pourra obtenir l'indemnisation de ces dommages en s'adressant à l'Assureur de son choix.\n\nCependant, lorsque plusieurs assurances contre le même risque sont contractées de manière intentionnelle ou frauduleuse, le Souscripteur encourt les sanctions prévues à l'article L 121-3 du Code des assurances (nullité du contrat et dommages et intérêts)."
+    ]
 }
+
+
+
+
+
 
 
 
