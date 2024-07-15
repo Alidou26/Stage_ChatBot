@@ -50,6 +50,98 @@
             "responses": [
                 "Les personnes protégées :\n• Vous et vos passagers,\n• le Conducteur secondaire et ses passagers,\n• toute autre personne à qui vous prêtez occasionnellement votre véhicule"
             ]
-        }
+        },
+        {
+
+           "tag": "Paiement_dommages_materiels",
+           "patterns": [
+               "Quel est le délai de paiement pour les dommages matériels après un accord amiable ?",
+               "Combien de temps après un accord amiable le paiement pour les dommages matériels est-il effectué ?",
+               "Dans quel délai l'indemnité pour les dommages matériels est-elle payée après un accord amiable ?",
+               "Quand l'indemnité pour les dommages matériels est-elle payée après un accord amiable ?"
+                       ],
+             "responses": [
+            "Le paiement de l'indemnité pour les dommages matériels doit être effectué dans les quinze jours suivant l'accord amiable."
+          ]
+        },
+        {
+            "tag": "Paiement_dommages_corporels",
+            "patterns": [
+              "Quel est le délai de paiement pour les dommages corporels après un accord amiable ?",
+               "Combien de temps après un accord amiable le paiement pour les dommages corporels est-il effectué ?",
+             "Dans quel délai l'indemnité pour les dommages corporels est-elle payée après un accord amiable ?",
+              "Quand l'indemnité pour les dommages corporels est-elle payée après un accord amiable ?"
+          ],
+            "responses": [
+             "Pour les dommages corporels, le paiement de l'indemnité doit être effectué dans les quinze jours suivant un accord amiable ou une décision judiciaire exécutoire."
+             ]
+        },
+        {
+    "tag": "Accord_amiable",
+    "patterns": [
+        "Qu'est-ce qu'un accord amiable dans le cadre de l'assurance ?",
+        "Que signifie un accord amiable en assurance ?",
+        "Quelle est la définition d'un accord amiable en assurance ?",
+        "Qu'entend-on par accord amiable en assurance ?"
+    ],
+    "responses": [
+        "Un accord amiable est une transaction entre l'assuré et l'assureur concernant le montant de l'indemnité due, matérialisé par un document écrit."
+    ]
+},
+{
+    "tag": "Delai_opposition_creancier",
+    "patterns": [
+        "Quand commence le délai de paiement en cas d'opposition d'un créancier ?",
+        "Quel est le point de départ du délai de paiement en cas d'opposition d'un créancier ?",
+        "A partir de quand le délai de paiement court-il en cas d'opposition d'un créancier ?",
+        "Quand démarre le délai de paiement en cas d'opposition d'un créancier ?"
+    ],
+    "responses": [
+        "En cas d'opposition d'un créancier, le délai commence à partir du jour de la mainlevée."
+    ]
+},
+{
+    "tag": "Vol_retour_vehicule",
+    "patterns": [
+        "Que se passe-t-il si le véhicule volé est retrouvé dans un délai de trente jours ?",
+        "Quelle est la procédure si le véhicule volé est retrouvé dans un délai de trente jours ?",
+        "Quelles sont les actions à entreprendre si le véhicule volé est retrouvé dans un délai de trente jours ?",
+        "Que doit faire le propriétaire si le véhicule volé est retrouvé dans un délai de trente jours ?"
+    ],
+    "responses": [
+        "Si le véhicule volé est retrouvé dans un délai de trente jours à compter de la déclaration du vol, le propriétaire doit le reprendre et l'assureur règle les dommages subis par le véhicule selon les modalités prévues dans le cadre de la garantie."
+    ]
+},
+{
+    "tag": "Vol_pas_retrouve",
+    "patterns": [
+        "Quelle est la procédure si le véhicule volé n'est pas retrouvé dans un délai de trente jours ?",
+        "Que se passe-t-il si le véhicule volé n'est pas retrouvé dans un délai de trente jours ?",
+        "Quelles sont les étapes à suivre si le véhicule volé n'est pas retrouvé dans un délai de trente jours ?",
+        "Que fait l'assureur si le véhicule volé n'est pas retrouvé dans un délai de trente jours ?"
+    ],
+    "responses": [
+        "Si le véhicule volé n'est pas retrouvé dans un délai de trente jours à compter de la déclaration du vol, le paiement de l'indemnité doit être effectué au plus tard dans un délai de quarante-cinq jours à compter de la date de déclaration du vol, à condition que l'assuré ait fourni tous les documents et informations demandés."
+    ]
+},
+{
+    "tag": "Vol_vehicule_accepte",
+    "patterns": [
+        "Que doit faire l'assuré si le véhicule volé est retrouvé après avoir accepté l'offre de l'assureur ?",
+        "Quelle est la procédure si le véhicule volé est retrouvé après que l'assuré ait accepté l'offre de l'assureur ?",
+        "Que se passe-t-il si le véhicule volé est retrouvé après que l'assuré ait accepté l'offre de l'assureur ?",
+        "Que doit faire l'assuré si le véhicule volé est retrouvé après l'acceptation de l'offre de l'assureur ?"
+    ],
+    "responses": [
+        "Une fois que l'assuré a accepté l'offre de l'assureur, le véhicule devient définitivement la propriété de l'assureur. Avant cette acceptation, l'assuré est tenu de reprendre le véhicule s'il est retrouvé."
+    ]
+}
+
+
+
+
+
+
+
     ]
 }
