@@ -45,10 +45,14 @@
                 "Qui couvrons-nous ?",
                 "Les personnes que nous couvrons",
                 "Quelles sont les personnes couvertent par votre assurance ?",
-                "Quelles sont les personnes protégées par votre assurance ?"
+                "Quelles sont les personnes protégées par votre assurance ?",
+                "Qui sont les personnes protégées par l'assurance ?",
+                "Quelles personnes sont couvertes par l'assurance ?",
+                "Qui couvrons-nous ?",
+                "Qui est protégé par notre assurance ?"
             ],
             "responses": [
-                "Les personnes protégées :\n• Vous et vos passagers,\n• le Conducteur secondaire et ses passagers,\n• toute autre personne à qui vous prêtez occasionnellement votre véhicule"
+                "Les personnes protégées :\n• Vous et vos passagers,\n• le Conducteur secondaire et ses passagers,\n• toute autre personne à qui vous prêtez occasionnellement votre véhicule.\nLe + :\nDirect Assurance couvre gratuitement et sans franchise complémentaire un conducteur accompagné lorsque les conditions de l’apprentissage sont réunies (âge, apprentissage en auto-école), et que l’accompagnateur est désigné comme Conducteur principal ou secondaire sur le contrat auto.\n Le conducteur accompagné bénéficie comme les autres conducteurs de la Garantie Personnelle du Conducteur."
             ]
         },
         {
@@ -184,7 +188,126 @@
     "responses": [
         "Si, à la souscription, comme en cours de contrat, les risques garantis par le présent contrat sont assurés auprès de plusieurs Assureurs, le Souscripteur doit donner immédiatement à chaque Assureur connaissance des autres Assureurs en indiquant leurs noms et les conditions d'assurance. En cas de Sinistre, le bénéficiaire du contrat pourra obtenir l'indemnisation de ces dommages en s'adressant à l'Assureur de son choix.\n\nCependant, lorsque plusieurs assurances contre le même risque sont contractées de manière intentionnelle ou frauduleuse, le Souscripteur encourt les sanctions prévues à l'article L 121-3 du Code des assurances (nullité du contrat et dommages et intérêts)."
     ]
+},
+{
+    "tag": "Biens_assurés",
+    "patterns": [
+        "Quels biens sont couverts par l'assurance ?",
+        "Quels sont les biens assurés ?",
+        "Que couvre l'assurance en termes de biens ?",
+        "Que couvrons-nous ?",
+        "Que couvrez-vous ?",
+        "Quels biens sont protégés par l'assurance ?"
+    ],
+    "responses": [
+        "Les biens assurés :\n• Votre voiture,\n• votre remorque lorsque son poids est inférieur à 750 kg, une fois chargée. \nSi le poids de votre remorque dépasse 750 kg, elle doit être déclarée sur votre contrat lors de votre souscription."
+    ]
 }
+,
+{
+    "tag":"Espace_Personnel_et_Appli" ,
+    "patterns": [
+        "Quels sont les avantages de l'Espace Personnel chez Direct Assurance ?",
+        "Comment utiliser l'application mobile de Direct Assurance ?",
+        "Quels services sont disponibles dans l'Espace Personnel de Direct Assurance ?",
+        "Comment déclarer un sinistre avec Direct Assurance ?",
+        "Comment utiliser Direct Assurance sur mon smartphone ?",
+        "Quels services de Direct Assurance sont disponibles sur smartphone ?",
+        "Puis-je accéder à Direct Assurance via mon smartphone ?",
+        "Quels avantages offre l'application mobile de Direct Assurance ?"
+    ],
+    "responses": [
+       "On gagne toujours à être direct! Depuis votre Espace Personnel sur direct-assurance.fr ou via notre appli, vous pouvez tout faire.\nVotre Espace Personnel est la boîte à outils indispensable pour ne pas perdre de temps : suivre la progression de votre souscription, retrouver et nous transmettre les documents, régler en ligne. En quelques clics, pas plus. \nIl vous permet également de demander une attestation ou de modifier vos coordonnées.\n\nEn cas d'Accident, restez zen! Vous pouvez agir depuis notre appli. Voiture en Panne? Activez la géolocalisation de votre smartphone et appelez notre Assistance pour être remorqué plus rapidement. Un accrochage sans blessé? Pour ne rien oublier dans votre constat amiable, contactez-nous via l'appli et on vous aide à le remplir sur place.\n\nPour gagner du temps, vous pouvez déclarer un sinistre via notre appli ou dans votre Espace Personnel et suivre la progression de votre dossier à tout moment. On gagne toujours à être direct! Depuis votre Espace Personnel sur direct-assurance.fr ou via notre appli, vous pouvez tout faire.\n\nLe + :\nChoisissez de signer votre contrat en ligne grâce à la Signature électronique proposéelors de votre souscription:\n c’est rapide et entièrement sécurisé."
+    ]
+}
+,
+{
+    "tag":"Étapes_souscription" ,
+    "patterns": [
+        "Comment souscrire à une assurance chez Direct Assurance ?",
+        "Quelles sont les étapes pour souscrire une assurance avec Direct Assurance ?",
+        "Comment puis-je m'assurer avec Direct Assurance ?",
+        "Quels sont les processus de souscription chez Direct Assurance ?",
+        "Comment souscrire en ligne avec Direct Assurance ?",
+        "Puis-je souscrire à une assurance en ligne avec Direct Assurance ?",
+        "Quels sont les avantages de la souscription en ligne avec Direct Assurance ?",
+        "Comment compléter ma souscription en ligne chez Direct Assurance ?"
+    ],
+    "responses": [
+       "Pour souscrire une assurance chez Direct Assurance, suivez ces 2 étapes simples :\n\nÉTAPE 1. Régler votre cotisation\nIl vous suffit de régler la Cotisation demandée par carte bancaire ou par prélèvement, ce qui confirme que vous êtes bien assuré(e). Vous recevrez ensuite vos Conditions Personnelles et votre Mémo Véhicule assuré. À savoir : Si vous nous rejoignez dans le cadre de la loi Consommation (loi Hamon), nous envoyons pour vous en recommandé la demande de résiliation à votre compagnie actuelle. Pour cela, le nom du Souscripteur, le numéro du contrat et le nom de votre compagnie vous sont demandés. Vous devez ensuite nous adresser la confirmation de résiliation de votre Assureur.\n\nÉTAPE 2. Renvoyer vos justificatifs\nVous avez 30 jours pour nous envoyer les documents demandés (liste disponible dans votre Espace Personnel ou dans l'appli), détaillée également dans vos Conditions Personnelles, et pour signer votre contrat. Pour plus de facilité et de simplicité, vous pouvez signer votre contrat électroniquement.\n\nUne fois votre devis, vos Conditions Générales, et votre document d’information produit reçus par mail, nous vous invitons à relire le devis afin de vous assurer que les informations sont exactes, et à prendre connaissance des Conditions Générales. Notez que toute fausse déclaration à la souscription du contrat peut entraîner une nullité du contrat ou une réduction de l’indemnisation du Sinistre. Vous pouvez souscrire dans la foulée sur direct-assurance.fr ou auprès de nos conseillers.\n\nLe + : \n\nPour souscrire, vous pouvez tout faire en ligne !\n\n• Régler de façon totalement sécurisée, pour s’assurer dans l’heure qui suit.\n• Signer votre contrat électroniquement dans votre Espace Personnel, dans l’appli ou cliquer sur le lien prévu dans le mail de confirmation.\n• Nous envoyer, en les photographiant ou les scannant, les documents indispensables pour compléter votre dossier, via notre appli ou dans votre Espace Personnel sur direct-assurance.fr."
+    ]
+}
+,
+{
+    "tag": ,
+    "patterns": [
+
+    ],
+    "responses": [
+       
+    ]
+}
+,
+{
+    "tag": ,
+    "patterns": [
+
+    ],
+    "responses": [
+       
+    ]
+}
+,
+{
+    "tag": ,
+    "patterns": [
+
+    ],
+    "responses": [
+       
+    ]
+}
+,
+{
+    "tag": ,
+    "patterns": [
+
+    ],
+    "responses": [
+       
+    ]
+}
+,
+{
+    "tag": ,
+    "patterns": [
+
+    ],
+    "responses": [
+       
+    ]
+}
+,
+{
+    "tag": ,
+    "patterns": [
+
+    ],
+    "responses": [
+       
+    ]
+}
+,
+{
+    "tag": ,
+    "patterns": [
+
+    ],
+    "responses": [
+       
+    ]
+}
+
 
 
 
