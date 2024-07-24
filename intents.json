@@ -239,32 +239,49 @@
 }
 ,
 {
-    "tag": ,
+    "tag": "Garanties_Detaillees",
     "patterns": [
+        "Quelles sont les garanties détaillées de Direct Assurance ?",
+        "Quelles sont les garanties ?",
+        "Que couvrent les différentes formules chez Direct Assurance ?",
+        "Que couvrent les différentes ?",
+        "Quels types de dommages sont couverts par Direct Assurance ?",
+        "Quels types de dommages sont couverts ?",
+        "Quelles garanties propose Direct Assurance en cas de sinistre ?"
 
     ],
     "responses": [
-       
+       "Voici un aperçu des garanties détaillées proposées par Direct Assurance :\n\n**Assistance 24H/24, 7J/7**\nDisponible dans toutes les formules, vous bénéficiez d’une aide d’urgence en cas de panne, accident ou vol de votre véhicule. L’assistance interviendra à plus de 50 km de votre domicile ou à tout moment avec l’option Assistance étendue 0 km.\n\n**Véhicule de prêt pendant les réparations**\nDisponible dans toutes les formules, vous bénéficiez d’un véhicule de prêt pendant les réparations dans un garage partenaire. Service à domicile disponible si votre véhicule est roulant.\n\n**Garantie Personnelle du Conducteur**\nIncluse dans toutes les formules, elle indemnise le conducteur en cas de blessures, d’invalidité ou de décès, avec une indemnisation plafonnée à 400000 € ou 1500000 € selon les formules ou options souscrites.\n\n**Catastrophes Naturelles et Technologiques**\nDisponible en Tiers Maxi, Tous Risques et Tous Risques Maxi, vous êtes remboursé pour les dommages dus à une catastrophe naturelle ou technologique déclarée par arrêté ministériel.\n\n**Bris de glace**\nDisponible en Tiers Maxi, Tous Risques et Tous Risques Maxi, Direct Assurance prend en charge la réparation ou le remplacement des vitres de votre pare-brise, lunette arrière, glaces latérales, et en Tous Risques Maxi, des optiques avant et du toit vitré. Aucune franchise en cas de réparation par injection de résine ou avec l’option Zéro Franchise Bris de glace.\n\n**Vol ou Tentative de Vol**\nDisponible en Tiers Maxi, Tous Risques et Tous Risques Maxi, vous êtes indemnisé des frais de remise en état après une tentative de vol. En Tous Risques Maxi, le vol d’éléments extérieurs constitutifs du véhicule est également couvert. En cas de vol, si le véhicule n’est pas retrouvé au bout de 30 jours, il est remboursé selon sa valeur au moment du vol.\n\n**Incendie**\nDisponible en Tiers Maxi, Tous Risques et Tous Risques Maxi, les dommages liés à un incendie, foudre ou émeutes sont pris en charge, y compris les actes de vandalisme.\n\n**Dommages Tous Accidents**\nDisponible uniquement en Tous Risques, tous les dégâts subis par votre voiture lors d’un accident, que vous en soyez responsable ou non, sont pris en charge, y compris les accidents sans responsable identifié.\n\n**Contenu du véhicule**\nDisponible uniquement en Tous Risques Maxi, le contenu de votre véhicule est indemnisé en cas de vol ou destruction à la suite d’un sinistre garanti.\n\nVoici quelques précautions pour éviter le vol de votre voiture :\n\n- Dès que vous quittez votre véhicule, ne laissez jamais la clef de contact sur, dans ou sous votre voiture. Verrouillez les portes ainsi que votre coffre, même lorsque vous ouvrez ou fermez les portes de votre garage.\n- En cas de collision, si vous sortez pour constater les dégâts, retirez la clef de contact.\n- Prenez l’habitude de conserver vos clefs sur vous plutôt que de les laisser dans la poche d’une veste ou d’un sac à main quand vous n’êtes pas à la maison.\n- Changez les systèmes de déverrouillage et de démarrage de votre véhicule en cas de perte de clef (carte, télécommande…).\n- Restez dans votre voiture si vous la faites essayer à l’occasion de sa vente.\n- Ne laissez pas vos clefs visibles et accessibles au sein de votre domicile.\n\nAttention : si l’une ou plusieurs de ces précautions n’ont pas été respectées et ont conduit au vol de votre voiture, vous risquez de ne pas être indemnisé. (Article 4.5 de vos Conditions Générales)"
     ]
 }
 ,
 {
-    "tag": ,
+    "tag": "Options_boost_garanties" ,
     "patterns": [
-
+        "Quelles sont les options pour améliorer mes garanties chez Direct Assurance ?",
+        "Comment puis-je booster mes garanties avec Direct Assurance ?",
+        "Quelles options supplémentaires propose Direct Assurance ?",
+        "Quelles sont les extensions de garanties chez Direct Assurance ?",
+        "Quelles sont les options pour améliorer mes garanties ?",
+        "Comment puis-je booster mes garanties  ?",
+        "Quelles sont les options supplémentaires  ?",
+        "Quelles sont les extensions de garanties  ?"
     ],
     "responses": [
-       
+       "Voici les options qui boostent vos garanties chez Direct Assurance :\n\n**PROTECTION PERSONNELLE**\n- Extension de la Garantie Personnelle du Conducteur à 1500000 €.\n\n**ASSISTANCE ÉTENDUE 0 KM**\n- Assistance 0 km en cas de panne ou de crevaison.\n- Assistance 0 km en cas de clés perdues, brisées ou volées.\n- Assistance véhicule électrique en cas de panne de charge, remorquage vers la borne de recharge la plus proche.\n\n**Véhicule de prêt étendu**\n- En complément du véhicule de prêt dans nos garages partenaires pendant les réparations déjà inclus dans votre formule, un véhicule de prêt est mis à disposition sous 24 heures en cas d’accident, de panne, de vol ou si votre voiture est irréparable. Cette garantie est déjà incluse en Tous Risques Maxi.\n\n**Zéro franchise Bris de glace**\n- Vous n’avez aucune franchise à régler en cas de remplacement de votre pare-brise, de votre lunette arrière ou de vos glaces latérales, et également des feux avant ou du toit vitré si vous êtes en Tous Risques Maxi. Cette garantie est déjà incluse en Tous Risques Maxi et est proposée en option pour les autres formules.\n\n**Leasing – Perte Financière**\n- Si votre voiture en leasing (location avec option d’achat ou location longue durée) est volée ou irréparable suite à un accident, un incendie ou une catastrophe naturelle, nous prenons en charge l’intégralité des loyers restants dus ou de l’indemnité à payer à la société de location si vous avez souscrit cette option.\n\nVoici quelques précautions pour éviter le vol de votre voiture :\n\n- Dès que vous quittez votre véhicule, ne laissez jamais la clef de contact sur, dans ou sous votre voiture. Verrouillez les portes ainsi que votre coffre, même lorsque vous ouvrez ou fermez les portes de votre garage.\n- En cas de collision, si vous sortez pour constater les dégâts, retirez la clef de contact.\n- Prenez l’habitude de conserver vos clefs sur vous plutôt que de les laisser dans la poche d’une veste ou d’un sac à main quand vous n’êtes pas à la maison.\n- Changez les systèmes de déverrouillage et de démarrage de votre véhicule en cas de perte de clef (carte, télécommande…).\n- Restez dans votre voiture si vous la faites essayer à l’occasion de sa vente.\n- Ne laissez pas vos clefs visibles et accessibles au sein de votre domicile.\n\nAttention : si l’une ou plusieurs de ces précautions n’ont pas été respectées et ont conduit au vol de votre voiture, vous risquez de ne pas être indemnisé. (Article 4.5 de vos Conditions Générales)"
     ]
 }
 ,
 {
-    "tag": ,
+    "tag":"Prevention_Vol" ,
     "patterns": [
-
+        "Comment éviter le vol de ma voiture ?",
+        "Quelles précautions prendre pour éviter le vol de voiture ?",
+        "Que dois-je faire pour protéger ma voiture contre le vol ?",
+        "Quels conseils Direct Assurance donne-t-il pour éviter le vol de voiture ?"
     ],
     "responses": [
-       
+       "Voici quelques précautions pour éviter le vol de votre voiture :\n\n- Dès que vous quittez votre véhicule, ne laissez jamais la clef de contact sur, dans ou sous votre voiture. Verrouillez les portes ainsi que votre coffre, même lorsque vous ouvrez ou fermez les portes de votre garage.\n- En cas de collision, si vous sortez pour constater les dégâts, retirez la clef de contact.\n- Prenez l’habitude de conserver vos clefs sur vous plutôt que de les laisser dans la poche d’une veste ou d’un sac à main quand vous n’êtes pas à la maison.\n- Changez les systèmes de déverrouillage et de démarrage de votre véhicule en cas de perte de clef (carte, télécommande…).\n- Restez dans votre voiture si vous la faites essayer à l’occasion de sa vente.\n- Ne laissez pas vos clefs visibles et accessibles au sein de votre domicile.\n\nAttention : si l’une ou plusieurs de ces précautions n’ont pas été respectées et ont conduit au vol de votre voiture, vous risquez de ne pas être indemnisé. (Article 4.5 de vos Conditions Générales)"
     ]
 }
 ,
