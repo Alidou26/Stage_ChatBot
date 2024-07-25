@@ -286,42 +286,62 @@
 }
 ,
 {
-    "tag": ,
+    "tag": "Bonus_Malus",
     "patterns": [
+        "Comment fonctionne le bonus malus chez Direct Assurance ?",
+        "Qu'est-ce que le CRM en assurance auto ?",
+        "Qu'est-ce que le CRM ?",
+        "C'est quoi le CRM  ?",
+        "Comment mon bonus malus est-il calculé ?",
+        "Que se passe-t-il avec mon bonus malus en cas d'accident ?"
+    ],
+    "responses": [
+       "Une année sans accident fait augmenter votre bonus. Le bonus malus est le baromètre de votre conduite. Tant que vous ne provoquez pas d'accident, votre bonus augmente naturellement de 5% par an, ce qui correspond à un CRM (Coefficient de Réduction-Majoration) × 0,95. Dans le cas contraire, il diminue.\n\nLe CRM est calculé par la formule suivante : CRM = 1,00 – bonus malus.\n\nVotre CRM change selon votre responsabilité dans un accident :\n\n- **0 % RESPONSABLE** : CRM × 0,95\n  Exemple : 0,80 × 0,95 = 0,76 de CRM, soit 24% de bonus.\n\n- **50 % RESPONSABLE** : CRM × 1,125\n  Exemple : 0,80 × 1,125 = 0,90 de CRM, soit 10% de bonus.\n\n- **100 % RESPONSABLE** : CRM × 1,25\n  Exemple : 0,80 × 1,25 = 1,00 de CRM, soit 0% de bonus.\n\nExemple : un bonus de 20% correspond à un CRM de 0,80 (CRM = 1,00 – 0,20 = 0,80)."
+    ]
+}
+,
+{
+    "tag":"Evolution_Bonus" ,
+    "patterns": [
+        "Quand évolue mon bonus chez Direct Assurance ?",
+        "Quand évolue mon bonus ?",
+        "Comment mon bonus est-il recalculé ?",
+        "Que se passe-t-il si je suis impliqué dans un accident au moment du renouvellement de mon contrat ?",
+        "Comment fonctionne le renouvellement du bonus chez Direct Assurance ?"
 
     ],
     "responses": [
+        "Votre bonus évolue chaque année au renouvellement de votre contrat. Si vous êtes impliqué dans un accident et que les responsabilités ne sont pas déterminées au moment du renouvellement de votre contrat, votre bonus évoluera comme si vous étiez non responsable. Si votre responsabilité est finalement engagée, votre bonus sera alors réactualisé et votre cotisation recalculée en conséquence."
        
     ]
 }
 ,
 {
-    "tag": ,
+    "tag": "Franchise_Assurance",
     "patterns": [
-
+        "Qu'est-ce que la franchise en assurance auto ?",
+        "Qu'est-ce que la franchise ?",
+        "C'est quoi la franchise la franchise ?",
+        "Comment fonctionne la franchise après un sinistre ?",
+        "Dois-je toujours payer une franchise en cas d'accident ?",
+        "Quels sont les types de franchises disponibles chez Direct Assurance ?"
     ],
     "responses": [
-       
+       "À la suite d’un sinistre, la franchise est la part des frais qui reste éventuellement à votre charge. Quelque soit votre formule, vous devez la régler lorsque votre responsabilité est engagée dans un accident. Si vous n’êtes pas responsable mais que le tiers n’est pas clairement identifié, vous devez également avancer la franchise, qui vous sera remboursée si elle a pu être récupérée auprès du tiers. Vous n’avez pas à payer de franchise dans la majorité des cas si votre responsabilité n’est pas engagée et que le tiers 100% responsable est identifié et assuré.\n\nDeux types de franchises existent: fixes ou variables en fonction du contrat souscrit. Les montants sont précisés sur vos Conditions Personnelles ou sur votre dernier avis d’échéance. Vous pouvez choisir de supprimer la franchise bris de glace en souscrivant à l’option Zéro franchise bris de glace. Si vous avez souscrit à la Tous Risques Maxi ou au Zéro franchise bris de glace, vous n’avez aucune franchise à régler en cas de remplacement de votre pare-brise, de votre lunette arrière ou de vos glaces latérales et également des feux avant ou du toit vitré (Article 4.3 de vos Conditions Générales)."
     ]
 }
 ,
 {
-    "tag": ,
+    "tag": "Calcul_Franchise_Variable",
     "patterns": [
-
+        "Comment calculer le montant de ma franchise variable ?",
+        "Quelle est la structure d'une franchise variable ?",
+        "Comment est calculée la franchise variable en cas de sinistre  ?",
+        "Qu'est-ce qu'une franchise variable et comment la déterminer ?",
+        "Comment calculer une franchise variable  ?"
     ],
     "responses": [
-       
-    ]
-}
-,
-{
-    "tag": ,
-    "patterns": [
-
-    ],
-    "responses": [
-       
+       "Pour calculer le montant de votre franchise variable, elle comporte deux parties, dont la somme est plafonnée :\n\n• Une partie forfaitaire qui dépend de la catégorie du véhicule.\n• Une partie variable qui correspond à 10% du montant des réparations ou de l’indemnisation pour les garanties Attentats, Incendie, Vol, et Dommages Tous Accidents.\n\nCes montants sont précisés dans le dernier document que vous avez reçu, vos Conditions Personnelles ou votre dernier avis d’échéance.\n\nExemple pour une Citroën C1 1.0l, pour un accident dont vous êtes 100% responsable et pour des réparations effectuées dans l’un de nos garages partenaires:\n\nMONTANT DES RÉPARATIONS: 4200€\n\nMONTANT DE LA FRANCHISE:\n• Partie forfaitaire selon la catégorie du véhicule: 186€\n• Partie variable (10% du montant des réparations): 420€\n\nPlafond précisé sur les Conditions Personnelles: 506€\n\nFranchise théorique sans application du plafond: 186€ + 420€ = 606€\n\nFRANCHISE RÉELLE AVEC APPLICATION DU PLAFOND: 506€\n\n(1) Exemple calculé au 13 mars 2020 sur la base d’une franchise au montant variable. Les montants indiqués sont susceptibles d’évoluer."
     ]
 }
 
