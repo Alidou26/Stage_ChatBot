@@ -190,7 +190,7 @@
     ]
 },
 {
-    "tag": "Biens_assurés",
+    "tag": "Biens_assures",
     "patterns": [
         "Quels biens sont couverts par l'assurance ?",
         "Quels sont les biens assurés ?",
@@ -222,7 +222,7 @@
 }
 ,
 {
-    "tag":"Étapes_souscription" ,
+    "tag":"Etapes_souscription" ,
     "patterns": [
         "Comment souscrire à une assurance chez Direct Assurance ?",
         "Quelles sont les étapes pour souscrire une assurance avec Direct Assurance ?",
