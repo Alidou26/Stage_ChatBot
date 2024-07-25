@@ -40,22 +40,6 @@
             ]
         },
         {
-            "tag": "Personne_couverte",
-            "patterns": [
-                "Qui couvrons-nous ?",
-                "Les personnes que nous couvrons",
-                "Quelles sont les personnes couvertent par votre assurance ?",
-                "Quelles sont les personnes protégées par votre assurance ?",
-                "Qui sont les personnes protégées par l'assurance ?",
-                "Quelles personnes sont couvertes par l'assurance ?",
-                "Qui couvrons-nous ?",
-                "Qui est protégé par notre assurance ?"
-            ],
-            "responses": [
-                "Les personnes protégées :\n• Vous et vos passagers,\n• le Conducteur secondaire et ses passagers,\n• toute autre personne à qui vous prêtez occasionnellement votre véhicule.\nLe + :\nDirect Assurance couvre gratuitement et sans franchise complémentaire un conducteur accompagné lorsque les conditions de l’apprentissage sont réunies (âge, apprentissage en auto-école), et que l’accompagnateur est désigné comme Conducteur principal ou secondaire sur le contrat auto.\n Le conducteur accompagné bénéficie comme les autres conducteurs de la Garantie Personnelle du Conducteur."
-            ]
-        },
-        {
 
            "tag": "Paiement_dommages_materiels",
            "patterns": [
@@ -197,10 +181,18 @@
         "Que couvre l'assurance en termes de biens ?",
         "Que couvrons-nous ?",
         "Que couvrez-vous ?",
-        "Quels biens sont protégés par l'assurance ?"
+        "Quels biens sont protégés par l'assurance ?",
+        "Qui couvrons-nous ?",
+        "Les personnes que nous couvrons",
+        "Quelles sont les personnes couvertent par votre assurance ?",
+        "Quelles sont les personnes protégées par votre assurance ?",
+        "Qui sont les personnes protégées par l'assurance ?",
+        "Quelles personnes sont couvertes par l'assurance ?",
+        "Qui couvrons-nous ?",
+        "Qui est protégé par notre assurance ?"
     ],
     "responses": [
-        "Les biens assurés :\n• Votre voiture,\n• votre remorque lorsque son poids est inférieur à 750 kg, une fois chargée. \nSi le poids de votre remorque dépasse 750 kg, elle doit être déclarée sur votre contrat lors de votre souscription."
+        "Les personnes protégées :\n• Vous et vos passagers,\n• le Conducteur secondaire et ses passagers,\n• toute autre personne à qui vous prêtez occasionnellement votre véhicule.\n\nLes biens assurés :\n• Votre voiture,\n• votre remorque lorsque son poids est inférieur à 750 kg, une fois chargée. \nSi le poids de votre remorque dépasse 750 kg, elle doit être déclarée sur votre contrat lors de votre souscription.\n\n\nLe + :\nDirect Assurance couvre gratuitement et sans franchise complémentaire un conducteur accompagné lorsque les conditions de l’apprentissage sont réunies (âge, apprentissage en auto-école), et que l’accompagnateur est désigné comme Conducteur principal ou secondaire sur le contrat auto.\n Le conducteur accompagné bénéficie comme les autres conducteurs de la Garantie Personnelle du Conducteur."
     ]
 }
 ,
