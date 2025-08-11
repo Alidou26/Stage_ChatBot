@@ -86,30 +86,24 @@ Ce projet a été développé dans le cadre d'un stage au sein de **CIEMS**, ent
 ⬆ Back to top
 
 </div>
-Description Fonctionnelle<a name="fonctionnelle"></a>
-Interaction Utilisateur :
 
-L'utilisateur saisit sa question via l'interface web
+## Description Fonctionnelle<a name="fonctionnelle"></a>
 
-Le système capture et pré-traite la requête
+1. Interaction Utilisateur :
+   - L'utilisateur saisit sa question via l'interface web
+   - Le système capture et pré-traite la requête
 
-Traitement IA :
+2. Traitement IA :
+   - Le modèle NLP identifie l'intention derrière la question
+   - Recherche dans la base de connaissances (intents.json)
 
-Le modèle NLP identifie l'intention derrière la question
+3. Génération de Réponse :
+   - Sélection de la réponse la plus pertinente
+   - Renvoi au format conversationnel
 
-Recherche dans la base de connaissances (intents.json)
-
-Génération de Réponse :
-
-Sélection de la réponse la plus pertinente
-
-Renvoi au format conversationnel
-
-Expérience Utilisateur :
-
-Affichage en temps réel dans le chat
-
-Format conversationnel naturel
+4. Expérience Utilisateur :
+   - Affichage en temps réel dans le chat
+   - Format conversationnel naturel
 
 <div align="right">
 ⬆ Back to top
