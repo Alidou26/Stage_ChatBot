@@ -66,6 +66,7 @@ Ce projet a été développé dans le cadre d'un stage au sein de **CIEMS**, ent
 
 ## Architecture du Projet<a name="architecture"></a>
 ```
+CIEMS_Chatbot/
 ├── __pycache__/
 ├── static/
 │   ├── app.js             # Logique frontend
@@ -186,25 +187,4 @@ http://127.0.0.1:5000/
 
 </div>
 
-## Structure du Projet<a name="structure"></a>
-```
-CIEMS_Chatbot/
-├── static/
-│   ├── app.js
-│   ├── style.css
-│   └── icons/
-├── templates/
-│   └── index.html
-├── app.py
-├── chat.py
-├── model.py
-├── nltk_code.py
-├── train.py
-├── intents.json
-├── data.pth
-└── requirements.txt
-```
-<div align="right">
-⬆ Back to top
 
-</div>
