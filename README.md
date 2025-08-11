@@ -1,100 +1,82 @@
-Chatbot Intelligent – CIEMS
-📌 Contexte du projet
-Ce projet a été réalisé dans le cadre d’un stage au sein de CIEMS, une entreprise marocaine spécialisée dans l’innovation et l’accompagnement stratégique.
-L’objectif était de mettre en place un chatbot intelligent capable de répondre aux préoccupations des clients de manière rapide et pertinente, en automatisant les réponses aux questions fréquentes.
+<a name="top"></a>
 
-🎯 Objectifs
-Fournir un service client automatisé disponible 24/7.
+# Chatbot Intelligent – CIEMS
 
-Réduire la charge de travail des conseillers.
+## Table des Matières
+1. [Introduction](#introduction)
+   - [Contexte](#contexte)
+   - [Objectifs](#objectifs)
+2. [Technologies et Outils Utilisés](#technologies)
+3. [Architecture du Projet](#architecture)
+4. [Description Fonctionnelle](#fonctionnelle)
+5. [Description Non-Fonctionnelle](#non-fonctionnelle)
+6. [Installation et Exécution](#installation)
+7. [Flux de Fonctionnement](#flux)
+8. [Améliorations Futures](#ameliorations)
+9. [Structure du Projet](#structure)
+10. [Contributeurs](#contributeurs)
 
-Améliorer l’expérience utilisateur grâce à l’IA.
+---
 
-🛠️ Stack Technique
-Langage : Python
+## Introduction<a name="introduction"></a>
 
-Framework Web : Flask
+### Contexte<a name="contexte"></a>
+Ce projet a été développé dans le cadre d'un stage au sein de **CIEMS**, entreprise marocaine spécialisée dans l'innovation et l'accompagnement stratégique. L'objectif principal était de créer un chatbot intelligent capable de répondre aux questions fréquentes des clients, réduisant ainsi la charge des conseillers humains.
 
-Intelligence Artificielle : Réseaux de neurones (Deep Learning)
+### Objectifs<a name="objectifs"></a>
+- 🕒 Fournir un service client automatisé disponible 24/7  
+- ⚙️ Réduire la charge de travail des conseillers  
+- 🤖 Améliorer l'expérience utilisateur grâce à l'IA  
+- 💬 Automatiser les réponses aux questions récurrentes  
 
-Bibliothèques principales :
+<div align="right">
 
-NumPy, Pandas (manipulation de données)
+[⬆ Back to top](#top)
 
-PyTorch (entraînement et utilisation du modèle IA)
+</div>
 
-NLTK (traitement du langage naturel)
+---
 
-Flask (développement de l’interface et API)
+## Technologies et Outils Utilisés<a name="technologies"></a>
 
-📊 Données d’entraînement
-Les données utilisées pour l’entraînement proviennent de Direct Assurance (France). [📄 Télécharger le PDF]([https://exemple.com/rapport.pdf](https://www.direct-assurance.fr/Sales/ContentStore/?filename=/Conditions_Generales_Assurance_Auto.pdf&tx=MzoxOjExOjE1OjE6MQ==))
-Elles contiennent des dialogues clients permettant d’entraîner le modèle à reconnaître les intentions et à fournir des réponses adaptées.
+### Intelligence Artificielle
+- ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+- ![NLTK](https://img.shields.io/badge/NLTK-3BB143?style=for-the-badge&logo=python&logoColor=white)
 
-🏗️ Architecture du projet
-php
-Copier
-Modifier
-├── __pycache__/           # Fichiers Python compilés
-├── static/                # Fichiers statiques pour l’interface
-│   ├── app.js             # Logique côté client (JavaScript)
-│   ├── chatbox-icon.svg   # Icône du chatbot
+### Backend
+- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+- ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+
+### Traitement de Données
+- ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+- ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+
+### Frontend
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+<div align="right">
+
+[⬆ Back to top](#top)
+
+</div>
+
+---
+
+## Architecture du Projet<a name="architecture"></a>
+```php
+├── __pycache__/
+├── static/
+│   ├── app.js             # Logique frontend
+│   ├── chatbox-icon.svg   # Assets visuels
 │   └── style.css          # Styles CSS
 ├── templates/
-│   └── index.html         # Page HTML principale
-├── app.py                 # Point d’entrée Flask
-├── chat.py                # Gestion des réponses du chatbot
-├── data.pth               # Modèle entraîné sauvegardé
-├── essai.py               # Script de test
-├── intents.json           # Données d’entraînement (intents)
-├── model.py               # Définition du modèle IA
-├── nltk_code.py           # Prétraitement des données avec NLTK
-├── train.py               # Script d’entraînement du modèle
-└── README.md              # Documentation
-🚀 Installation et exécution
-1️⃣ Cloner le dépôt
-bash
-Copier
-Modifier
-git clone https://github.com/<ton-utilisateur>/<nom-du-repo>.git
-cd <nom-du-repo>
-2️⃣ Créer un environnement virtuel
-bash
-Copier
-Modifier
-python -m venv venv
-source venv/bin/activate   # Sur macOS / Linux
-venv\Scripts\activate      # Sur Windows
-3️⃣ Installer les dépendances
-bash
-Copier
-Modifier
-pip install -r requirements.txt
-4️⃣ Entraîner le modèle
-bash
-Copier
-Modifier
-python train.py
-5️⃣ Lancer l’application
-bash
-Copier
-Modifier
-python app.py
-Puis ouvrir un navigateur et aller sur :
-http://127.0.0.1:5000/
-
-📈 Fonctionnement
-L’utilisateur pose une question via l’interface web.
-
-Flask envoie la requête au modèle IA.
-
-Le modèle prédit l’intention et renvoie la réponse correspondante.
-
-🔮 Améliorations possibles
-Ajout d’un support multilingue.
-
-Enrichissement des données d’entraînement.
-
-Intégration avec WhatsApp, Messenger, etc.
-
-Hébergement sur un serveur cloud.
+│   └── index.html         # Interface principale
+├── app.py                 # Serveur Flask
+├── chat.py                # Gestion des réponses
+├── data.pth               # Modèle entraîné
+├── intents.json           # Base de connaissances
+├── model.py               # Architecture du modèle IA
+├── nltk_code.py           # Prétraitement NLP
+└── train.py               # Script d'entraînement
