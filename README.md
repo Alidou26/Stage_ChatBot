@@ -187,7 +187,7 @@ http://127.0.0.1:5000/
 </div>
 
 ## Structure du Projet<a name="structure"></a>
-
+```
 CIEMS_Chatbot/
 ├── static/
 │   ├── app.js
@@ -203,7 +203,7 @@ CIEMS_Chatbot/
 ├── intents.json
 ├── data.pth
 └── requirements.txt
-
+```
 <div align="right">
 ⬆ Back to top
 
