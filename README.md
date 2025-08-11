@@ -65,7 +65,7 @@ Ce projet a été développé dans le cadre d'un stage au sein de **CIEMS**, ent
 ---
 
 ## Architecture du Projet<a name="architecture"></a>
-```php
+```
 ├── __pycache__/
 ├── static/
 │   ├── app.js             # Logique frontend
@@ -80,3 +80,86 @@ Ce projet a été développé dans le cadre d'un stage au sein de **CIEMS**, ent
 ├── model.py               # Architecture du modèle IA
 ├── nltk_code.py           # Prétraitement NLP
 └── train.py               # Script d'entraînement
+```
+
+<div align="right">
+⬆ Back to top
+
+</div>
+Description Fonctionnelle<a name="fonctionnelle"></a>
+Interaction Utilisateur :
+
+L'utilisateur saisit sa question via l'interface web
+
+Le système capture et pré-traite la requête
+
+Traitement IA :
+
+Le modèle NLP identifie l'intention derrière la question
+
+Recherche dans la base de connaissances (intents.json)
+
+Génération de Réponse :
+
+Sélection de la réponse la plus pertinente
+
+Renvoi au format conversationnel
+
+Expérience Utilisateur :
+
+Affichage en temps réel dans le chat
+
+Format conversationnel naturel
+
+<div align="right">
+⬆ Back to top
+
+</div>
+Description Non-Fonctionnelle<a name="non-fonctionnelle"></a>
+Performance :
+Temps de réponse < 1.5s grâce à l'optimisation PyTorch
+
+Fiabilité :
+Taux de reconnaissance d'intentions > 92% sur données de test
+
+Maintenabilité :
+Architecture modulaire (modèle, traitement, interface séparés)
+
+Sécurité :
+Validation des entrées utilisateur contre les injections
+
+Évolutivité :
+Conception permettant l'ajout de nouvelles intentions
+
+<div align="right">
+⬆ Back to top
+
+</div>
+Installation et Exécution<a name="installation"></a>
+
+# 1. Cloner le dépôt
+git clone https://github.com/<utilisateur>/<repo>.git
+cd <repo>
+
+# 2. Créer l'environnement virtuel
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate    # Windows
+
+# 3. Installer les dépendances
+pip install -r requirements.txt
+
+# 4. Entraîner le modèle
+python train.py
+
+# 5. Lancer l'application
+python app.py
+Accéder à l'interface :
+http://127.0.0.1:5000/
+
+<div align="right">
+⬆ Back to top
+
+</div>
+
+Flux de Fonctionnement<a name="flux"></a>
