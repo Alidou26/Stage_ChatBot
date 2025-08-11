@@ -164,3 +164,47 @@ http://127.0.0.1:5000/
 <div>
    <img src="diagramme.png">
 </div>
+<div align="right">
+⬆ Back to top
+
+</div>
+
+## Améliorations Futures<a name="ameliorations"></a>
+
+- 🌍 Support multilingue (français/arabe/anglais)
+
+- 📱 Intégration avec WhatsApp/Messenger
+
+- 🧠 Fine-tuning avec des données métier spécifiques
+
+- ☁️ Déploiement cloud avec scaling automatique
+
+- 📈 Tableau de bord d'analytique des requêtes
+
+<div align="right">
+⬆ Back to top
+
+</div>
+
+## Structure du Projet<a name="structure"></a>
+
+CIEMS_Chatbot/
+├── static/
+│   ├── app.js
+│   ├── style.css
+│   └── icons/
+├── templates/
+│   └── index.html
+├── app.py
+├── chat.py
+├── model.py
+├── nltk_code.py
+├── train.py
+├── intents.json
+├── data.pth
+└── requirements.txt
+
+<div align="right">
+⬆ Back to top
+
+</div>
