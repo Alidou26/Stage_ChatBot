@@ -160,3 +160,13 @@ http://127.0.0.1:5000/
 </div>
 
 Flux de Fonctionnement<a name="flux"></a>
+
+sequenceDiagram
+    Utilisateur->>Frontend: Pose une question
+    Frontend->>Backend: Envoie la requête
+    Backend->>Modèle IA: Traitement NLP
+    Modèle IA->>Base Connaissances: Match avec intents.json
+    Base Connaissances-->>Modèle IA: Réponse appropriée
+    Modèle IA-->>Backend: Renvoie la réponse
+    Backend-->>Frontend: Transmet la réponse
+    Frontend-->>Utilisateur: Affiche la réponse
