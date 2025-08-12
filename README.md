@@ -136,22 +136,18 @@ Conception permettant l'ajout de nouvelles intentions
 ## Installation et Exécution<a name="installation"></a>
 
 ### 1. Cloner le dépôt
-git clone https://github.com/<utilisateur>/<repo>.git
+git clone https://github.com/Alidou26/Stage_ChatBot.git
 cd <repo>
 
-### 2. Créer l'environnement virtuel
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate    # Windows
-
-### 3. Installer les dépendances
+### 2. Installer les dépendances
 pip install -r requirements.txt
 
-### 4. Entraîner le modèle
+### 3. Entraîner le modèle
 python train.py
 
-### 5. Lancer l'application
+### 4. Lancer l'application
 python app.py
+cd
 Accéder à l'interface :
 http://127.0.0.1:5000/
 
