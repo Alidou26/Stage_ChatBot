@@ -114,7 +114,10 @@ CIEMS_Chatbot/
 ## Description Non-Fonctionnelle<a name="non-fonctionnelle"></a>
 
 - **Performance :**
-Temps de réponse < 1.5s grâce à l'optimisation PyTorch
+Perte d'entraînement finale ≈ 0.000 (convergence rapide) — Temps de réponse  < 1s grâce à l'optimisation PyTorch
+
+<img src="image/0.png" style="width: 80%; max-width: 600px; height: auto; display: block; margin: 20px auto; border: 2px solid #ccc; border-radius: 10px;" alt="Aperçu de l'image">
+
 
 - **Fiabilité :**
 Taux de reconnaissance d'intentions > 92% sur données de test
