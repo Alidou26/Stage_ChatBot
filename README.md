@@ -146,7 +146,7 @@ python train.py
 
 ### 4. Lancer l'application
 python app.py
-\n
+<div></div>
 Accéder à l'interface :
 http://127.0.0.1:5000/
 
