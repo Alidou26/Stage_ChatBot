@@ -137,7 +137,6 @@ Conception permettant l'ajout de nouvelles intentions
 
 ### 1. Cloner le dépôt
 git clone https://github.com/Alidou26/Stage_ChatBot.git
-cd <repo>
 
 ### 2. Installer les dépendances
 pip install -r requirements.txt
@@ -147,7 +146,7 @@ python train.py
 
 ### 4. Lancer l'application
 python app.py
-cd
+\n
 Accéder à l'interface :
 http://127.0.0.1:5000/
 
