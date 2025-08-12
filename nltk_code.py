@@ -1,7 +1,7 @@
 
 
 import nltk
-#nltk.download('punkt')
+nltk.download('punkt')
 from nltk.stem.snowball import SnowballStemmer
 import numpy as np
 import spacy
