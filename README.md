@@ -13,8 +13,8 @@
 6. [Installation et Exécution](#installation)
 7. [Flux de Fonctionnement](#flux)
 8. [Améliorations Futures](#ameliorations)
-9. [Structure du Projet](#structure)
-10. [Contributeurs](#contributeurs)
+9. [Démo](#demo)
+
 
 ---
 
@@ -182,4 +182,15 @@ http://127.0.0.1:5000/
 
 </div>
 
+## Démo<a name="demo"></a>
 
+<img src="image/1.png" style="width: 80%; max-width: 600px; height: auto; display: block; margin: 20px auto; border: 2px solid #ccc; border-radius: 10px;" alt="Aperçu de l'image">
+<img src="image/2.png" style="width: 80%; max-width: 600px; height: auto; display: block; margin: 20px auto; border: 2px solid #ccc; border-radius: 10px;" alt="Aperçu de l'image">
+<img src="image/3.png" style="width: 80%; max-width: 600px; height: auto; display: block; margin: 20px auto; border: 2px solid #ccc; border-radius: 10px;" alt="Aperçu de l'image">
+<img src="image/4.png" style="width: 80%; max-width: 600px; height: auto; display: block; margin: 20px auto; border: 2px solid #ccc; border-radius: 10px;" alt="Aperçu de l'image">
+<img src="image/5.png" style="width: 80%; max-width: 600px; height: auto; display: block; margin: 20px auto; border: 2px solid #ccc; border-radius: 10px;" alt="Aperçu de l'image">
+
+<div align="right">
+⬆ Back to top
+
+</div>
